@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EntrenadoresComponent } from './entrenadores.component';
+import { CharmanderComponent } from './charmander.component';
 
-describe('EntrenadoresComponent', () => {
-  let component: EntrenadoresComponent;
-  let fixture: ComponentFixture<EntrenadoresComponent>;
+describe('CharmanderComponent', () => {
+  let component: CharmanderComponent;
+  let fixture: ComponentFixture<CharmanderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EntrenadoresComponent]
+      imports: [CharmanderComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EntrenadoresComponent);
+    fixture = TestBed.createComponent(CharmanderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
