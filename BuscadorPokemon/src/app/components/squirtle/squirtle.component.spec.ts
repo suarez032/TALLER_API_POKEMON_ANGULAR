@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SquirtleComponent } from './squirtle.component';
+import { Squirtle } from './squirtle.component';
 
 describe('SquirtleComponent', () => {
-  let component: SquirtleComponent;
-  let fixture: ComponentFixture<SquirtleComponent>;
+  let component: Squirtle;
+  let fixture: ComponentFixture<Squirtle>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SquirtleComponent]
+      imports: [Squirtle]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SquirtleComponent);
+    fixture = TestBed.createComponent(Squirtle);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

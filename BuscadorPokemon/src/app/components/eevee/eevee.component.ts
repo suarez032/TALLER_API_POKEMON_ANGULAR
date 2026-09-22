@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './eevee.component.html',
   styleUrl: './eevee.component.css'
 })
-export class EeveeComponent {
+export class Eevee {
 
 }

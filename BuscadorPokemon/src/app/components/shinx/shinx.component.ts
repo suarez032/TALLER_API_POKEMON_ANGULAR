@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './shinx.component.html',
   styleUrl: './shinx.component.css'
 })
-export class ShinxComponent {
+export class Shinx {
 
 }

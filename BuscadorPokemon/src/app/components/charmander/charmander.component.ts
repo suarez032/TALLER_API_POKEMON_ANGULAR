@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './charmander.component.html',
   styleUrl: './charmander.component.css'
 })
-export class CharmanderComponent {
+export class Charmander {
 
 }

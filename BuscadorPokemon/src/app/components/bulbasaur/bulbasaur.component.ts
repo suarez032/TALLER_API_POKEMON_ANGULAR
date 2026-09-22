@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './bulbasaur.component.html',
   styleUrl: './bulbasaur.component.css'
 })
-export class BulbasaurComponent {
+export class Bulbasaur {
 
 }

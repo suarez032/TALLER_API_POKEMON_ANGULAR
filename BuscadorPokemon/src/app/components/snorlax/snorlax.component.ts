@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './snorlax.component.html',
   styleUrl: './snorlax.component.css'
 })
-export class SnorlaxComponent {
+export class Snorlax {
 
 }
